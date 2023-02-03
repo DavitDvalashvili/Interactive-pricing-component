@@ -17,12 +17,12 @@
       <h2>Sign-up for our 30-day trial. No credit card required. </h2>
       <div class="pricing-container">
         <div>
-          <h3>100K PAGEVIEWS</h3>
+          <h3><span id="viewer-number">100 K</span><span>PAGE VIEWS</span></h3>
           <div class="slider">
-            <input id="slider" type="range" min="8" max="32" step="4">
+            <input id="slider" type="range" min="8" value="20" max="24" step="4">
           </div>
           <div class="price">
-            <span id="price">$16.00</span><span>/month</span>
+            <span id="price">$20.00</span><span id="time-interval">/Month</span>
           </div>
         </div>
         <div class="info-box">
@@ -30,14 +30,17 @@
           <input type="checkbox" id="switch" />
           <label for="switch"></label>
           <span>Yearly Billing</span>
-          <span id="discount">-25%</span>
+          <span id="discount-mobile">-25%</span>
+          <span id="discount-desktop">-25% discount</span>
         </div>
-        <div class="text-box">
-          <p>Unlimited websites</p>
-          <p>100% data ownership</p>
-          <p>Email reports</p>
+        <div class="text-container">
+          <div class="text-box">
+            <p>Unlimited websites</p>
+            <p>100% data ownership</p>
+            <p>Email reports</p>
+          </div>
+          <button type="button" >Start my trial</button>
         </div>
-        <button type="button" >Start my trial</button>
       </div>
     </main>
     <script src="script.js"></script>

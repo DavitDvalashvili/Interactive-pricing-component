@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1024px) {
+    /* general */
+    body {
+        background: url(/images/pattern-circles.svg) no-repeat center 8rem, url(images/bg-pattern.svg)  no-repeat;
+        background-size: auto, 100vw 40rem;
+    }
+    main {
+        height: 55.9rem;
+        max-width: unset;
+        width: 54rem;
+        margin-bottom: 15vh;
+    }
+    h1 {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+        margin: unset;
+    }
+    h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 1.2rem 0 9.2rem 0;
+    }
+    /* pricing container */
+    .pricing-container {
+        height: 39.7rem;
+        padding: 4rem 0 3.3rem 0;
+    }
+    .pricing-container > div:nth-of-type(1) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: unset;
+    }
+    h3 {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        letter-spacing: 0.2rem;
+        margin-right: 10.2rem;
+    } 
+    .slider {
+        order: 3;
+        width: 100%;
+        padding: 4rem 4.8rem 5.6rem 4.4rem;
+    }
+    .price  span:nth-of-type(2) {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        margin-left: 0.8rem;
+    }
+    #price {
+        font-size: 4rem;
+        line-height: 5.5rem;
+        letter-spacing: -0.1rem;
+    }
+    /* info box */
+    .info-box {
+        padding: 0 6.5rem 4rem 14rem;
+    }
+    .info-box label {
+        margin: 0 1.6rem;
+    }
+    #discount-mobile {
+        display: none;
+    }
+    #discount-desktop {
+        display: inline-block;
+        padding: 0;
+        width: unset;
+        height: 1.9rem;
+        padding: 0.2rem 0.7rem 0.2rem 0.6rem;
+        margin-left: 0.9rem;
+    }
+    /* text box */
+    .text-box {
+        margin: 3.2rem 0 0 4.8rem;
+    }
+    .text-box p {
+        text-align: left;
+    }
+    .text-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    button {
+        width: 17rem;
+        margin: 4.7rem 4.4rem;
+    }
+
+}
