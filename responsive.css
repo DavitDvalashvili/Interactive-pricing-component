@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1024px) {
     /* general */
     body {
-        background: url(/images/pattern-circles.svg) no-repeat center 8rem, url(images/bg-pattern.svg)  no-repeat;
+        background: url(images/pattern-circles.svg) no-repeat center 8rem, url(images/bg-pattern.svg)  no-repeat;
         background-size: auto, 100vw 40rem;
     }
     main {
